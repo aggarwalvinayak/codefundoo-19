@@ -41,9 +41,9 @@
 
 -----------------------------------------------------------------------------------------------------------------------------------
 
-- Basic Structure of our Block-chain solution:
+- Basic Structure of My Block-chain solution:
 
-Our solution would contain a web interface for people to register by either creating their own node or using a pre-existing node. The nodes will be of two types 
+my solution would contain a web interface for people to register by either creating their own node or using a pre-existing node. The nodes will be of two types 
 
 1. Admin nodes maintained by Election Commission to administer the events of voting using the block-chain and distribute vote tokens.
 2. User nodes maintained by users to register and get vote tokens and use them to cast their vote.
@@ -62,7 +62,7 @@ A user node can have multiple vote tokens for different registration. So a perso
 
 After registration a user will be allotted a vote token. This vote would contain the unique ID generated for the user, its own Unique ID, Date of Creation, Party Voted, Constituency of User.
 
-Casting vote transaction requires that your unique ID generated from aadhar and secret should have been already registered. Thus a user can vote by spending his/her vote token using our web portal.
+Casting vote transaction requires that your unique ID generated from aadhar and secret should have been already registered. Thus a user can vote by spending his/her vote token using my web portal.
 
 The admin node will take care of putting special transactions which would be used as temporal checkpoints for 
 1. Adding new Mining nodes
@@ -71,7 +71,7 @@ The admin node will take care of putting special transactions which would be use
  
 My web server would be running various functions to count total registered users, number of votes to each constituency party wise and other important details and would be triggered by each new block of vote tokens mined and updating the web portal with the information.
 
-Re-registering for voting needs to be done for every voting season. Admin Node will insert a new checkpoint before which all the registered participants become invalid. This is a way to prevent *Zombie voters*( voters who have died or would not vote) in our voting list.
+Re-registering for voting needs to be done for every voting season. Admin Node will insert a new checkpoint before which all the registered participants become invalid. This is a way to prevent *Zombie voters*( voters who have died or would not vote) in my voting list.
 
 - Features that the system provides:
 1. Easy Registration of voters with proper verification.
