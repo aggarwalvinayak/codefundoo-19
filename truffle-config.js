@@ -1,9 +1,9 @@
 const fs = require('fs');
-var defaultnode = "https://sauravskv07.blockchain.azure.com:3200/_XxyoMd1R-7MNrLH7KaiCqiJ";
+var defaultnode = "https://codefundo-zyr64m.azurewebsites.net/applications";
 var Web3 = require("web3");
 var HDWalletProvider = require("truffle-hdwallet-provider");
 
-var defaultnode = "https://sauravskv07.blockchain.azure.com:3200/_XxyoMd1R-7MNrLH7KaiCqiJ";
+var defaultnode = "https://codefundo-zyr64m.azurewebsites.net/applications";
 var Web3 = require("web3");
 module.exports = {
   networks: {
@@ -20,7 +20,7 @@ module.exports = {
       network_id: "*",
       gas: 5000000,
       gasPrice: 0,
-      provider: new HDWalletProvider(fs.readFileSync('c:\\Users\\user\\Desktop\\Mnemonic1.env', 'utf-8'), "https://sauravskv07.blockchain.azure.com:3200/_XxyoMd1R-7MNrLH7KaiCqiJ"),
+      provider: new HDWalletProvider(fs.readFileSync('c:\\Users\\user\\Desktop\\Mnemonic1.env', 'utf-8'), "https://codefundo-zyr64m.azurewebsites.net/applications"),
       consortium_id: 1566214976150
     }
   },
